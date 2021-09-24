@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#843d28"
+    android:orientation="vertical"
+    tools:context="com.example.juber.myapplication.AddData">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            />
+        <EditText
+            android:id="@+id/editName_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:textSize="20dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NickName"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            />
+        <EditText
+            android:id="@+id/editSurName_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Nick Name"
+            android:textSize="20dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ammount"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            />
+        <EditText
+            android:id="@+id/editMarks_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Depostie"
+            android:textSize="20dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            />
+        <EditText
+            android:id="@+id/editId_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Mobile"
+            android:textSize="20dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textColor="#fff"
+            android:background="#D67601"
+            android:id="@+id/button_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="Add Data"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
